@@ -49,7 +49,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo systemctl status bluetooth.service && \
+sudo systemctl status bluetooth.service && \
 
 echo
 echo -e " Sucess ! "
@@ -73,7 +73,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo systemctl unmask bluetooth.service && \ 
+sudo systemctl unmask bluetooth.service && \ 
 
 
 echo
@@ -98,7 +98,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo systemctl start bluetooth.service && \ 
+sudo systemctl start bluetooth.service && \ 
 
 
 echo
@@ -125,7 +125,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo rmmod btusb && \
+sudo rmmod btusb && \
 
 
 echo
@@ -150,7 +150,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo systemctl enable bluetooth && \
+sudo systemctl enable bluetooth && \
 
 echo
 sleep 1
@@ -163,7 +163,7 @@ echo
 echo
 echo
 
-#echo  -e " 🔴 ${b_green}sudo apt-get remove bluez" #6
+echo  -e " 🔴 ${b_green}sudo apt-get remove bluez" #6
 
 echo
 sleep 1
@@ -175,7 +175,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo apt-get remove bluez && \
+sudo apt-get remove bluez && \
 
 echo
 sleep 1
@@ -200,7 +200,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo apt install bluez && \
+sudo apt install bluez && \
 
 echo
 sleep 1
@@ -225,7 +225,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo systemctl start bluetooth && \
+sudo systemctl start bluetooth && \
 
 
 echo
@@ -251,7 +251,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo systemctl status bluetooth.service && \
+sudo systemctl status bluetooth.service && \
 
 echo
 sleep 1
@@ -275,7 +275,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo apt-get install pulseaudio-module-bluetooth && \
+sudo apt-get install pulseaudio-module-bluetooth && \
 
 
 echo
@@ -310,7 +310,7 @@ echo
 echo -e " The system now will reboot ! "
 echo
 
-#killall pulseaudio && \ reboot
+killall pulseaudio && reboot
 
 
 echo

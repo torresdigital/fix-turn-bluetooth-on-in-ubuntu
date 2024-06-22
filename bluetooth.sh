@@ -73,7 +73,8 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-sudo systemctl unmask bluetooth.service && \ 
+systemctl unmask bluetooth.service && \ 
+#sudo systemctl unmask bluetooth.service
 
 
 echo

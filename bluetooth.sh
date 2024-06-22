@@ -49,7 +49,7 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-sudo systemctl status bluetooth.service && \
+#sudo systemctl status bluetooth.service && \
 
 echo
 echo -e " Sucess ! "

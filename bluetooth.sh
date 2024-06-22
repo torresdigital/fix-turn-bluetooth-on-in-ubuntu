@@ -49,7 +49,10 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-#sudo systemctl status bluetooth.service && \
+echo
+echo 
+
+sudo systemctl status bluetooth.service
 
 echo
 echo -e " Sucess ! "
@@ -58,8 +61,6 @@ echo
 echo
 sleep 1
 
-echo
-echo
 
 echo  -e " 🔴 ${b_green}sudo systemctl unmask bluetooth.service " #2
 
@@ -73,9 +74,10 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-systemctl unmask bluetooth.service && \ 
-#sudo systemctl unmask bluetooth.service
+#echo
+#echo
 
+systemctl unmask bluetooth.service
 
 echo
 echo -e " Sucess ! "
@@ -99,8 +101,10 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
-sudo systemctl start bluetooth.service && \ 
+#echo
+#echo
 
+sudo systemctl start bluetooth.service
 
 echo
 sleep 1
@@ -109,7 +113,6 @@ sleep 1
 echo
 echo -e " Sucess ! "
 echo
-
 
 echo
 echo
@@ -126,8 +129,15 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
+echo
+echo
+
 sudo rmmod btusb && \
 
+echo
+echo
+
+echo -e " 🟡 it's not a error 👆 🤡 "
 
 echo
 echo -e " Sucess ! "
@@ -150,6 +160,9 @@ sleep 1
 echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
 echo -ne '\n'
 sleep 2
+
+#echo
+#echo
 
 sudo systemctl enable bluetooth && \
 
@@ -176,6 +189,9 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
+#echo
+#echo
+
 sudo apt-get remove bluez && \
 
 echo
@@ -201,6 +217,9 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
+#echo
+#echo
+
 sudo apt install bluez && \
 
 echo
@@ -225,6 +244,9 @@ sleep 1
 echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
 echo -ne '\n'
 sleep 2
+
+#echo
+#echo
 
 sudo systemctl start bluetooth && \
 
@@ -252,6 +274,9 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
+#echo
+#echo
+
 sudo systemctl status bluetooth.service && \
 
 echo
@@ -275,6 +300,9 @@ sleep 1
 echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
 echo -ne '\n'
 sleep 2
+
+#echo
+#echo
 
 sudo apt-get install pulseaudio-module-bluetooth && \
 
